@@ -2,12 +2,10 @@
     background-color: #888888;
     color: white;
     margin-bottom: 0px;
-    position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 12.5rem;
     height: auto;
-
+    position: relative;
 }
 
 .footer-content {
