@@ -3,6 +3,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { getDataFromApi } from "./redux/actions/fetchDataActions/fetchDataAction";
 import "./assets/styles/App.css";
 import logo from './assets/images/logo.svg';
+import Header from "./components/header";
+import Detail from "./components/Detail";
+import Footer from "./components/Footer";
 
 /**
  * functional component App.js
@@ -18,20 +21,14 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-      <div>
-        Hello World!!
-      </div>
-    </div>
+    <>
+       <Header/>
+       <Detail
+        detailInfo={'My Account'}
+       />
+       <Footer/>
+       
+    </>
   );
 };
 export default App;
