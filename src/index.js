@@ -8,6 +8,7 @@ import './index.css';
 import { rootReducer } from './redux/reducers';
 import { apiMiddleware } from './middleware/axiosDefaultConfig';
 
+
 const store =  createStore(rootReducer,applyMiddleware(thunk,apiMiddleware))
 
 ReactDOM.render(

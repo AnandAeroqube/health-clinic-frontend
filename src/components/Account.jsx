@@ -10,7 +10,7 @@ function Account() {
   return (
     <div className='account-div'>
         <LeftPane/>
-        <RightPane/>
+         <RightPane/>
     </div>
   )
 }
