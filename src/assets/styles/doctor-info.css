@@ -1,0 +1,16 @@
+.card{
+    line-height: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fffdfd;
+    width: fit-content;
+    padding: 30px;
+    max-height: fit-content;
+    height: fit-content;
+
+}
+
+.h5-div {
+    color: grey;
+    font-weight: 420;
+}
