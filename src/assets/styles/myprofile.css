@@ -1,13 +1,12 @@
 .Rectangle-1 {
     min-width: 50%;
     max-width: auto;
-    height: 639px;
+    height: auto;
     flex-grow: 0;
     margin: 28px 0 0 12.5px;
     padding: 17px 0 24px;
     background-color: #fff;
     margin-left: 30px;
-    overflow: auto;
     margin-bottom: 160px;
   }
 
