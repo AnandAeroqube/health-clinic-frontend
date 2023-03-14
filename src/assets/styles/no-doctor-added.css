@@ -1,0 +1,26 @@
+.no-doctor-added{
+    margin-left: 70px;
+    padding: 300px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.sorry-img{
+    height: 100px;
+    width:112px;
+    border-radius: 15px;
+}
+
+.centerer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-text{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
