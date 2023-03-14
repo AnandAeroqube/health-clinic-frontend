@@ -6,6 +6,8 @@ import logo from './assets/images/logo.svg';
 import Header from "./components/header";
 import Detail from "./components/Detail";
 import Footer from "./components/Footer";
+import LeftPane from "./components/LeftPane";
+import Account from "./components/Account";
 
 /**
  * functional component App.js
@@ -22,11 +24,19 @@ const App = () => {
 
   return (
     <>
-       <Header/>
+
+    <div className="main-div">
+
+    <Header/>
        <Detail
         detailInfo={'My Account'}
        />
+        <Account/>
        <Footer/>
+
+
+    </div>
+       
        
     </>
   );
