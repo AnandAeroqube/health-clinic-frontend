@@ -189,4 +189,9 @@
 
 body {
   font-family: 'Poppins', 'serif';
+  min-height: 100%;
+}
+
+html{
+  height:100%;
 }

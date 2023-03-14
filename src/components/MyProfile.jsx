@@ -2,7 +2,7 @@ import React from 'react'
 import '../assets/styles/myprofile.css'
 import userProfileImage from '../assets/images/user-profile-image.svg'
 import { Button, Input } from '@mui/material'
-import AeroButton from './Button'
+import AeroButton from './AeroButton'
 
 function MyProfile() {
     return (

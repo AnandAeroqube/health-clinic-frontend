@@ -3,7 +3,8 @@
     max-width: fit-content;
     height: auto;
     flex-grow: 0;
-    margin-left: 160px;
+    margin-left: 200px;
+    margin-right: 40px;
     padding: 20px 0 9px;
     background-color: #fff;
   }
