@@ -1,3 +1,8 @@
+a{
+  text-decoration: none;
+  color: #858E96;
+}
+
 .Rectangle-2 {
     width: auto;
     max-width: fit-content;
@@ -6,7 +11,9 @@
     margin-left: 160px;
     padding: 20px 0 9px;
     background-color: #fff;
-    box-shadow: 0 0 12.5px 5px #f8f8fb
+    box-shadow: 0 0 12.5px 5px #f8f8fb;
+    margin-right: 80px;
+
   }
 
   .Ellipse-211 {
