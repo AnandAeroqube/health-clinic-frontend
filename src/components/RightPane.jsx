@@ -1,16 +1,16 @@
 import React from 'react'
 import DoctorInfo from './DoctorInfo'
 import '../assets/styles/rightpane.css'
-import DisplayAllDoctors from './DisplayAllDoctors'
-import MyDoctors from './MyDoctors/MyDoctors'
+import DisplayAllDoctors from '../containers/MyDoctors/DisplayAllDoctors'
+import MyDoctors from '../containers/MyDoctors/MyDoctors'
 import DoctorDetails from './DoctorDetails'
 import MyProfile from './MyProfile'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import LabTests from './Lab-Tests/LabTests'
-import Feedback from './Feedback/Feedback'
-import OnlineConsultation from './Online-Consultations/OnlineConsultation'
+import LabTests from '../containers/Lab-Tests/LabTests'
+import Feedback from '../containers/Feedback/Feedback'
+import OnlineConsultation from '../containers/Online-Consultations/OnlineConsultation'
 import App from '../App'
-import Appointments from './Appointments/Appointments'
+import Appointments from '../containers/Appointments/Appointments'
 
 function RightPane() {
   return (

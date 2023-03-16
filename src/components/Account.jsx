@@ -2,7 +2,7 @@ import React from 'react'
 import LeftPane from './LeftPane'
 import MyProfile from './MyProfile'
 import '../assets/styles/account.css'
-import NoDoctorAdded from './NoDoctorAdded'
+import NoDoctorAdded from '../containers/MyDoctors/NoDoctorAdded'
 import DoctorInfo from './DoctorInfo'
 import RightPane from './RightPane'
 

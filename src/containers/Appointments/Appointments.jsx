@@ -1,5 +1,5 @@
 import React from 'react'
-import NoDoctorAdded from '../NoDoctorAdded'
+import NoDoctorAdded from '../MyDoctors/NoDoctorAdded'
 
 function Appointments() {
   return (

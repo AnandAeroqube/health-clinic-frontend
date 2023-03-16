@@ -1,5 +1,5 @@
-import '../assets/styles/display-all-doctors.css'
-import DoctorInfo from './DoctorInfo'
+import '../../assets/styles/display-all-doctors.css'
+import DoctorInfo from '../../components/DoctorInfo'
 import React from 'react'
 
 function DisplayAllDoctors() {

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { getDataFromApi } from "./redux/actions/fetchDataActions/fetchDataAction";
+import React, {useEffect, useState} from "react";
+import {useSelector, useDispatch} from "react-redux";
+import {getDataFromApi} from "./redux/actions/fetchDataActions/fetchDataAction";
 import "./assets/styles/App.css";
 import logo from './assets/images/logo.svg';
 import Header from "./components/header";
@@ -13,40 +13,27 @@ import Account from "./components/Account";
  * functional component App.js
  */
 const App = () => {
-  const content = useSelector(state => state.main);
-  const dispatch = useDispatch();
+    const content = useSelector(state => state.main);
+    const dispatch = useDispatch();
 
-  /** equivalent to componentDidMount with second params as [] */
-  useEffect(() => {
-    dispatch(getDataFromApi());
-    console.log(content)
-  }, []);
+    /** equivalent to componentDidMount with second params as [] */
+    useEffect(() => {
+        dispatch(getDataFromApi());
+        console.log(content)
+    }, []);
 
-  const [detail, setDetail] = useState("My Account");
+    const [detail, setDetail] = useState("My Account");
 
-  const updateDetail = (state) => {
-    setDetail(state);
-    console.log(state)
-  }
-
-
-  return (
-    <>
-
-    <div className="main-div">
-
-    <Header/>
-       <Detail
-        detailInfo={detail}
-       />
-        <Account detail={detail} handleDetail={updateDetail}/>
-       <Footer/>
+    const updateDetail = (state) => {
+        setDetail(state);
+        console.log(state)
+    }
 
 
-    </div>
-       
-       
-    </>
-  );
+    return (
+        <>
+            <div className="main-div">This is an app</div>
+        </>
+    );
 };
 export default App;
