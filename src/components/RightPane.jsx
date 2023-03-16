@@ -4,11 +4,12 @@ import '../assets/styles/rightpane.css'
 import DisplayAllDoctors from './DisplayAllDoctors'
 import MyDoctors from './MyDoctors'
 import DoctorDetails from './DoctorDetails'
+import MyProfile from './MyProfile'
 
 function RightPane() {
   return (
     <>
-       <DoctorDetails/>
+       <MyProfile/>
     </>
   )
 }
