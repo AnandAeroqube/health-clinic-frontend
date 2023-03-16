@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getDataFromApi } from "./redux/actions/fetchDataActions/fetchDataAction";
 import "./assets/styles/App.css";
@@ -22,6 +22,14 @@ const App = () => {
     console.log(content)
   }, []);
 
+  const [detail, setDetail] = useState("My Account");
+
+  const updateDetail = (state) => {
+    setDetail(state);
+    console.log(state)
+  }
+
+
   return (
     <>
 
@@ -29,9 +37,9 @@ const App = () => {
 
     <Header/>
        <Detail
-        detailInfo={'My Account'}
+        detailInfo={detail}
        />
-        <Account/>
+        <Account detail={detail} handleDetail={updateDetail}/>
        <Footer/>
 
 

@@ -6,10 +6,10 @@ import NoDoctorAdded from './NoDoctorAdded'
 import DoctorInfo from './DoctorInfo'
 import RightPane from './RightPane'
 
-function Account() {
+function Account({detail,handleDetail}) {
   return (
     <div className='account-div'>
-        <LeftPane/>
+         <LeftPane detail={detail} handleDetail={handleDetail}/>
          <RightPane/>
     </div>
   )

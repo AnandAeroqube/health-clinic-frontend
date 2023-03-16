@@ -1,12 +1,12 @@
 .no-doctor-added{
-    margin-left: 70px;
-    padding: 300px 30px;
+    padding: 180px 30px;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    width: 50%;
     margin-bottom: 30px;
     flex-direction: column;
+    box-shadow: 0 0 12.5px 5px #f8f8fb;
 }
 
 .sorry-img{
