@@ -1,0 +1,28 @@
+.dp {
+    background-color: #f9f9fa;
+    padding: 60px 10%;
+}
+
+.dp-tabs {
+    margin: 40px auto;
+}
+
+.dp-tabpanelarea {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.dp-tabpanel {
+    text-transform: none;
+}
+
+.dp-tab {
+    color: var(--color-primary) !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.dp-tabarea {
+    background-color: white;
+}

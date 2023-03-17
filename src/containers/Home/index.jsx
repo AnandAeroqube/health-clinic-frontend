@@ -1,11 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
-import Navbar from "../components/Navbar";
-import "./Home.css";
+import "./index.css";
 import SearchIcon from "@mui/icons-material/Search";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import { Button } from "@mui/material";
-import DoctorCard from "../components/DoctorCard";
+import DoctorCard from "../../components/DoctorCard";
 
 const doctor = {
   photo: 'placeholder.jpg',
@@ -24,7 +23,6 @@ export const Home = (props) => {
 
   return (
     <>
-      <Navbar />
       <section className="home-section">
         <div className="home-section-1">
           <div className="headline">

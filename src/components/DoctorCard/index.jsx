@@ -3,11 +3,11 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-import './DoctorCard.css';
+import './index.css';
 
 export default function DoctorCard({doctor}) {
   return (
-    <Card sx={{ width: 345, fontFamily: 'inherit', borderRadius: '10px', margin: '10px', overflow:'visible', paddingBottom: '10px' }}>
+    <Card sx={{ width: 345, fontFamily: 'inherit', borderRadius: '10px', margin: '10px 3vw', overflow:'visible', paddingBottom: '10px' }}>
       <CardActionArea>
         <CardMedia
           component="img"
