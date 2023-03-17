@@ -7,13 +7,16 @@ import App from './App';
 import './index.css';
 import { rootReducer } from './redux/reducers';
 import { apiMiddleware } from './middleware/axiosDefaultConfig';
+import { BrowserRouter } from 'react-router-dom';
 
 
 const store =  createStore(rootReducer,applyMiddleware(thunk,apiMiddleware))
 
 ReactDOM.render(
   <Provider store={store}>
+    <BrowserRouter>
       <App />
+    </BrowserRouter>
   </Provider>,
   document.getElementById('root')
 );
