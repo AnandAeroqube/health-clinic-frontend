@@ -1,0 +1,75 @@
+.Rectangle-1 {
+    min-width: 50%;
+    max-width: auto;
+    height: auto;
+    flex-grow: 0;
+    margin: 28px 0 0 12.5px;
+    padding: 17px 0 24px;
+    background-color: #fff;
+    margin-left: 70px;
+    margin-bottom: 160px;
+    box-shadow: 0 0 12.5px 5px #f8f8fb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .Rectangle-1 .row{
+    display: flex;
+    justify-content: space-between;
+    padding : 20px;
+    flex-wrap: wrap;
+  }
+
+  .profile-photo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .profile-photo h2{
+    font-size: medium;
+    font-weight: 550;
+    color: #858E96;
+  }
+
+  .profile-photo-sub-div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  hr{
+    color: #DEE2E6;
+  }
+
+  .profile-photo-sub-sub-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .profile-photo-sub-sub-div p{
+    color: #858E96;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .input-text{
+    padding: 15px;
+    width:300px;
+    border-radius: 3px;
+    border: solid 0.5px #eaeaea;
+    margin: 10px 0px;
+  }
+
+  .just{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }

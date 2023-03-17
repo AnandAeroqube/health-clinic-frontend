@@ -189,4 +189,11 @@
 
 body {
   font-family: 'Poppins', 'serif';
+  /* min-height: 100%; */
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: small;
+  }
+ }

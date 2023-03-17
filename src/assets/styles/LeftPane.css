@@ -1,0 +1,47 @@
+a{
+  text-decoration: none;
+  color: #858E96;
+}
+
+.Rectangle-2 {
+    width: auto;
+    max-width: fit-content;
+    height: auto;
+    flex-grow: 0;
+    margin-left: 160px;
+    padding: 20px 0 9px;
+    background-color: #fff;
+    box-shadow: 0 0 12.5px 5px #f8f8fb;
+    margin-right: 80px;
+
+  }
+
+  .Ellipse-211 {
+  width: 35px;
+  height: 35px;
+  background-color: #d9d9d9;
+  border-radius: 80px;
+  margin-right: 5px;
+}
+
+.sub-div{
+    display: flex;
+    padding: 20px;
+    border-bottom: 2px solid  #DEE2E6;
+    margin-bottom: 0px;
+}
+
+
+.item{
+    padding: 20px;
+    list-style-type: none;
+    color:#858E96;
+    font-weight: 525;
+    border-bottom: 2px solid  #DEE2E6;
+
+}
+
+.list{
+    margin-top: 0px;
+}
+
