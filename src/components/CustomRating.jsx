@@ -30,7 +30,7 @@ export default function CustomRating({value}) {
         alignItems: 'center',
         backgroundColor: '#efefef',
         padding: '2px 8px',
-        margin: '30px 2px',
+        margin: '25px 2px',
         width: 'fit-content',
       }}
     >

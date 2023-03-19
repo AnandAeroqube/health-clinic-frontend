@@ -1,4 +1,39 @@
 .dcc {
     display: flex;
     flex-direction: row;
+    font-family: 'Poppins';
+    color: var(--color-primary);
+    padding: 20px;
+}
+
+.dcc-address {
+    width: 30%;
+}
+
+.dcc-address__dir {
+    color: #eba352;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.dcc-app {
+    width: 30%;
+    line-height: 2;
+}
+
+.dcc-app__days {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.doctor-card.dcc-app__button#appointment-button {
+    width: auto !important;
+    margin: 10px auto;
+    padding: 5px 20px;
+}
+
+.dcc-fee {
+    font-size: 16px;
+    font-weight: bold;
 }

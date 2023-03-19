@@ -3,6 +3,11 @@
     padding: 60px 10%;
 }
 
+.dp hr {
+    color: var(--color-gray-1) !important;
+    margin: 20px;
+}
+
 .dp-tabs {
     margin: 40px auto;
 }
@@ -20,9 +25,69 @@
     color: var(--color-primary) !important;
     text-transform: none !important;
     font-size: 18px !important;
-    font-weight: 600 !important;
+    font-family: 'Poppins' !important;
+    font-weight: 700 !important;
 }
 
 .dp-tabarea {
     background-color: white;
+}
+
+.dp-addinfo {
+    font-family: 'Poppins';
+    color: var(--color-primary);
+    margin: 20px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.dp-addinfo__headline {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dp-addinfo__body {
+    margin: 20px;
+}
+
+.dp-addinfo__h {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.dp-addinfo__c {
+    margin: auto 20px;
+}
+
+.dp-faq-headline {
+    background-color: #f4f4f4;
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.dp-faq-body {
+    background-color: white;
+}
+
+.dp-faq {
+    padding: 25px;
+}
+
+.dp-faqq {
+    width: 90%;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 2;
+    margin: 5px 0;
+    color: var(--color-primary);
+}
+
+.dp-faqa {
+    width: 90%;
+    font-size: 14px;
 }
